@@ -50,7 +50,7 @@
 ### 插件列表
 - Chinese (Simplified) Language Pack for Visual Studio Code：汉化包。`ctrl + shift + p`中选择`display language`后，选择显示的语言。
 - Google Translate：翻译工具。[下载](https://github.com/marx88/vsc-google-translate/releases)后，在`vscode`的扩展界面，点击右上角`...`，选择`从VSIX安装`。
-- Go：`vscode`集成`Golang`的开发工具。`ctrl + shift + p`中选择`install/update tool`后，安装这些tool：goimports,golangci-lint,dlv,godef,go-outline,gopkgs,gocode-gomod,golint,gocode。
+- Go：`vscode`集成`Golang`的开发工具。`ctrl + shift + p`中选择`install/update tool`后，安装这些tool：goimports,golangci-lint,dlv,godef,go-outline,gopkgs,gocode-gomod,golint,gocode,guru。
 - PHP DocBlocker：代码注释用。
 - PHP Intellisense：代码提示啊等等。
 - phpfmt PHP formatter：简单的代码格式化。
