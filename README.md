@@ -54,7 +54,7 @@
 - PHP DocBlocker：代码注释用。
 - PHP Intellisense：代码提示啊等等。
 - phpfmt PHP formatter：简单的代码格式化。
-- PHP Debug：代码调试用。前置操作包括，1、安装XDebug，按照插件提供的说明安装；2、配置ini,扩展地址`zend_extension = 下载的xdebug名.dll`及xdebug配置：
+- PHP Debug：代码调试用。前置操作包括，1、安装XDebug，按照插件提供的说明安装；2、`vscode`的`launch.json`里面的端口也写成9001；3、配置ini,扩展地址`zend_extension = 下载的xdebug名.dll`及xdebug配置：
 ```
 [XDebug]
 xdebug.mode=debug
@@ -62,4 +62,3 @@ xdebug.start_with_request=yes
 ;9001是避免与nginx的9000端口冲突
 xdebug.client_port="9001"
 ```
-3、`vscode`的`launch.json`里面的端口也写成9001
