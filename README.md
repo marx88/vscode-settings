@@ -62,3 +62,4 @@ xdebug.start_with_request=yes
 ;9001是避免与nginx的9000端口冲突
 xdebug.client_port="9001"
 ```
+- SFTP：ftp。
