@@ -14,9 +14,9 @@
 ### 配置项
 按`ctrl + ,`打开设置，点击右上角`打开设置(json)`，在打开的文件里输入：
 
-#### 普通配置项
 ```
 {
+    // 通用配置
     "files.exclude": {
         "**/.idea": true
     },
@@ -30,20 +30,34 @@
     "files.eol": "\n",
     "files.insertFinalNewline": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.detectIndentation": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
     "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+
+    // GO配置
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "gopls": {
+        "usePlaceholders": true,
+        "completionDocumentation": true
+    },
+    
+    // PHP配置
+    "[php]": {
+        "editor.formatOnSave": true
+    },
 }
-```
-
-#### 扩展GO配置项
-```
-"go.formatTool": "goimports",
-```
-
-#### 扩展PHP配置项
-```
-"[php]": {
-    "editor.formatOnSave": true
-},
 ```
 
 
