@@ -77,3 +77,5 @@ xdebug.start_with_request=yes
 xdebug.client_port="9001"
 ```
 - SFTP：ftp。
+- Code Runner：右键或者`ctrl + alt + n`运行代码文件。
+- Todo Tree：TODO高亮、TODO侧边栏
