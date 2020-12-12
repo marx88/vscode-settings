@@ -57,6 +57,20 @@
     "[php]": {
         "editor.formatOnSave": true
     },
+
+    // WEB配置
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    }
 }
 ```
 
