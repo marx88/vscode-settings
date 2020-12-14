@@ -35,6 +35,7 @@
     "editor.renderWhitespace": "all",
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
+    "editor.rulers": [80, 100],
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
 
