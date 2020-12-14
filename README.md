@@ -82,6 +82,7 @@
 - Go：`vscode`集成`Golang`的开发工具。`ctrl + shift + p`中选择`install/update tool`后，安装这些tool：goimports,golangci-lint,dlv,godef,go-outline,gopkgs,gocode-gomod,golint,gocode,guru。
 - PHP DocBlocker：代码注释用。
 - PHP Intellisense：代码提示啊等等。
+- PHP Intelephense：上面的插件`use`时不提示`composer`里的库...
 - phpfmt PHP formatter：简单的代码格式化。
 - PHP Debug：代码调试用。前置操作包括，1、安装XDebug，按照插件提供的说明安装；2、`vscode`的`launch.json`里面的端口也写成9001；3、配置ini,扩展地址`zend_extension = 下载的xdebug名.dll`及xdebug配置：
 ```
