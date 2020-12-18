@@ -38,12 +38,10 @@
     "editor.rulers": [80, 100],
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
-
     // GO配置
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
     "[go]": {
-        "editor.snippetSuggestions": "none",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
@@ -53,12 +51,10 @@
         "usePlaceholders": true,
         "completionDocumentation": true
     },
-    
     // PHP配置
     "[php]": {
         "editor.formatOnSave": true
     },
-
     // WEB配置
     "[html]": {
         "editor.tabSize": 2,
