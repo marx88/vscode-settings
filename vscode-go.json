@@ -1,0 +1,43 @@
+{
+	"package main": {
+		"prefix": "package main",
+		"body":[
+			"package main\n",
+			"func main() {",
+			"\t$0",
+			"}\n",
+		],
+		"description": "short for package main"
+	},
+	"func (t *Type)": {
+		"prefix": "funct",
+		"body":[
+			"func ($1 *$2) $3($4) $5 {",
+			"\t$0",
+			"}",
+		],
+		"description": "short for func (t *Type)"
+	},
+	"c.JSON(success)": {
+		"prefix": "json success",
+		"body":[
+			"c.JSON(http.StatusOK, gin.H{",
+			"\t\"code\": ${1:0},",
+			"\t\"msg\":  \"${2:success}\",",
+			"\t\"data\": ${3:nil},",
+			"})",
+        ],
+		"description": "short for c.JSON(success)"
+	},
+	"c.JSON(error)": {
+		"prefix": "json error",
+		"body":[
+			"c.JSON(http.StatusOK, gin.H{",
+			"\t\"code\": ${1:1},",
+			"\t\"msg\":  \"${2:error}\",",
+			"\t\"data\": ${3:nil},",
+			"})",
+        ],
+		"description": "short for c.JSON(error)"
+	},
+}
