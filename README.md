@@ -48,13 +48,15 @@
         }
     },
     "gopls": {
-        "usePlaceholders": true,
-        "completionDocumentation": true
+        "usePlaceholders": true
     },
     // PHP配置
     "[php]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
+    "php-cs-fixer.rules": "@PhpCsFixer",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     // WEB配置
     "[html]": {
         "editor.tabSize": 2,
@@ -67,7 +69,7 @@
     "[css]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
-    }
+    },
 }
 ```
 
@@ -79,7 +81,8 @@
 - PHP DocBlocker：代码注释用。
 - PHP Intellisense：代码提示啊等等。
 - PHP Intelephense：上面的插件`use`时不提示`composer`里的库...
-- phpfmt PHP formatter：简单的代码格式化。
+- ~~phpfmt PHP formatter：简单的代码格式化。有了php-cs-fixer插件就不用这个了。~~
+- PHP CS Fixer：格式化代码，很好很强大。
 - PHP Debug：代码调试用。前置操作包括，1、安装XDebug，按照插件提供的说明安装；2、`vscode`的`launch.json`里面的端口也写成9001；3、配置ini,扩展地址`zend_extension = 下载的xdebug名.dll`及xdebug配置：
 ```
 [XDebug]
