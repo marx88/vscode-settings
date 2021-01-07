@@ -96,3 +96,4 @@ xdebug.client_port="9001"
 - Todo Tree：TODO高亮、TODO侧边栏
 - EditorConfig for Visual Studio Code：让vscode支持`.editorconfig`文件
 - Vetur：支持`.vue`文件
+- vscode-proto3：支持`.proto`文件
