@@ -61,14 +61,17 @@
     "[html]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[javascript]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[css]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
 }
 ```
@@ -97,3 +100,4 @@ xdebug.client_port="9001"
 - EditorConfig for Visual Studio Code：让vscode支持`.editorconfig`文件
 - Vetur：支持`.vue`文件
 - vscode-proto3：支持`.proto`文件
+- Prettier - Code formatter：格式化`js`、`css`、`html`代码
