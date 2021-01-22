@@ -101,3 +101,6 @@ xdebug.client_port="9001"
 - Vetur：支持`.vue`文件
 - vscode-proto3：支持`.proto`文件
 - Prettier - Code formatter：格式化`js`、`css`、`html`代码
+- DotENV：高亮`.env`文件
+- TWIG：`vscode-twig`,高亮`.twig`文件
+
