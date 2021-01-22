@@ -103,4 +103,5 @@ xdebug.client_port="9001"
 - Prettier - Code formatter：格式化`js`、`css`、`html`代码
 - DotENV：高亮`.env`文件
 - TWIG：`vscode-twig`,高亮`.twig`文件
+- Git History：查看GIT提交历史记录
 
