@@ -9,5 +9,11 @@
     "workbench.editor.enablePreviewFromQuickOpen": true,
     "editor.lineHeight": 0,
     "editor.renderLineHighlight": "all",
-    "editor.minimap.enabled": true
+    "editor.minimap.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    }
 }
