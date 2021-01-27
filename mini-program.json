@@ -1,0 +1,13 @@
+{
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 14,
+    "files.autoSave": "off",
+    "editor.wordWrap": "on",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "editor.lineHeight": 0,
+    "editor.renderLineHighlight": "all",
+    "editor.minimap.enabled": true
+}
