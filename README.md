@@ -38,6 +38,12 @@
     "editor.rulers": [80, 100],
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
+    // YAML文件配置
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.autoIndent": "advanced"
+    },
     // GO配置
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
