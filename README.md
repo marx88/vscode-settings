@@ -64,6 +64,7 @@
     "php-cs-fixer.rules": "@PhpCsFixer",
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     // WEB配置
+    "prettier.printWidth": 120,
     "[html]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
