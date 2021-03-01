@@ -38,6 +38,8 @@
     "editor.rulers": [80, 100],
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "search.useIgnoreFiles": false,
     // YAML文件配置
     "[yaml]": {
         "editor.insertSpaces": true,
