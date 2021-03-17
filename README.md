@@ -92,7 +92,7 @@
 - Google Translate：翻译工具。[下载](https://github.com/marx88/vsc-google-translate/releases)后，在`vscode`的扩展界面，点击右上角`...`，选择`从VSIX安装`。
 - Go：`vscode`集成`Golang`的开发工具。`ctrl + shift + p`中选择`install/update tool`后，安装这些tool：goimports,golangci-lint,dlv,godef,go-outline,gopkgs,gocode-gomod,golint,gocode,guru。
 - PHP DocBlocker：代码注释用。
-- PHP Intellisense：代码提示啊等等。
+- ~~PHP Intellisense：代码提示啊等等。~~
 - PHP Intelephense：上面的插件`use`时不提示`composer`里的库...
 - ~~phpfmt PHP formatter：简单的代码格式化。有了php-cs-fixer插件就不用这个了。~~
 - PHP CS Fixer：格式化代码，很好很强大。
