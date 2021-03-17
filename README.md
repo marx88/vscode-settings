@@ -82,6 +82,7 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
+    "php-cs-fixer.lastDownload": 1615430174523,
 }
 ```
 
