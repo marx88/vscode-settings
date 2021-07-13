@@ -60,29 +60,39 @@
     },
     // PHP配置
     "[php]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
     "php-cs-fixer.rules": "@PhpCsFixer",
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1626137882631,
     // WEB配置
-    "prettier.printWidth": 120,
+    "prettier.printWidth": 120, // 配合根目录.prettierrc.yaml一起用
     "[html]": {
         "editor.tabSize": 2,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[javascript]": {
         "editor.tabSize": 2,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[css]": {
         "editor.tabSize": 2,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
-    "php-cs-fixer.lastDownload": 1615430174523,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    // vue的html格式化
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+          "wrap_attributes": "force-expand-multiline"
+        },
+    },
 }
 ```
 
