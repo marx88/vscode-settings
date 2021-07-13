@@ -1,0 +1,17 @@
+printWidth: 100
+tabWidth: 2
+useTabs: false
+semi: false
+singleQuote: true
+trailingComma: 'none'
+bracketSpacing: true
+arrowParens: 'always'
+
+overrides:
+  - files:
+      - '*.css'
+      - '*.scss'
+      - '*.sass'
+    options:
+      singleQuote: false
+      printWidth: 1000
